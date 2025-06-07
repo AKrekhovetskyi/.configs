@@ -38,12 +38,13 @@ repos:
       - id: commitizen-branch
         stages: [pre-push]
 
-  - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.16.0
-    hooks:
-      - id: mypy
-
   - repo: https://github.com/hukkin/mdformat
     rev: 0.7.22
     hooks:
       - id: mdformat
+
+  # https://microsoft.github.io/pyright/#/configuration
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.401
+    hooks:
+    - id: pyright
