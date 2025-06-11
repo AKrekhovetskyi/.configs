@@ -26,5 +26,6 @@
                 "export $(grep -v '^#' .env | xargs); $SHELL"
             ]
         }
-    }
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
 }
