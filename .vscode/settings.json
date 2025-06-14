@@ -13,7 +13,7 @@
     "python.testing.pytestArgs": [
         "tests/"
     ],
-    "python.testing.unittestEnabled": true,
+    "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.testing.pytestPath": "python -m pytest",
     "cSpell.language": "en",
