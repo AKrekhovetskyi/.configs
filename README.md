@@ -18,3 +18,10 @@ git submodule update --init
 ```
 
 For more details, read the official [Git Submodule documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+## Usage
+
+After the submodule is initialized successfully, create symlinks of configuration files. A command example:
+```bash
+ln -s .configs/.vscode/ .
+```
