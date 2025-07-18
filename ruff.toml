@@ -25,6 +25,7 @@ ignore = [
     "TRY003", # Long exception messages that are not defined in the exception class itself.
     "PT009",  # Uses of assertion methods from the unittest module.
     "S605",   # Uses of the Python requests or httpx module that omit the timeout parameter.
+    "RUF001", # Checks for ambiguous Unicode characters in strings.
 ]
 
 [lint.per-file-ignores]
